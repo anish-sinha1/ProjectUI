@@ -1,0 +1,50 @@
+//Buttons
+
+.btn {
+  display: inline-block;
+  background: $color-white;
+  color: $color-black;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+  transition: all 0.3s ease-in;
+  &.btn-primary {
+    @include set-background($color-primary);
+    &:hover {
+      background: darken($color-primary, 8%);
+    }
+  }
+  &.btn-danger {
+    @include set-background($color-danger);
+    &:hover {
+      background: darken($color-danger, 8%);
+    }
+  }
+  &.btn-confirm {
+    @include set-background($color-confirm);
+    &:hover {
+      background: darken($color-confirm, 8%);
+    }
+  }
+  &.btn-warning {
+    @include set-background($color-warning);
+    &:hover {
+      background: darken($color-warning, 8%);
+    }
+  }
+  &.btn-black {
+    @include set-background($color-black);
+    &:hover {
+      background: lighten($color-black, 25%);
+    }
+  }
+  &.btn-build {
+    @include set-background($color-build);
+    &:hover {
+      background: lighten($color-build, 8%);
+    }
+  }
+}

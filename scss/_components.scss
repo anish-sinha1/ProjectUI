@@ -1,0 +1,126 @@
+//Post container
+.container {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: $max-width;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  //   overflow: hidden;
+  padding: 1rem;
+  //   border: 1px solid #333;
+  border-right: 1px solid #d3d3d3;
+}
+
+//Post item
+.container-post {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  padding: 1rem;
+  min-width: 55rem;
+
+  &__user {
+    grid-column: 1/5;
+    // border: 1px solid #333;
+    & > div {
+      padding: 0.25rem;
+    }
+  }
+  &__title {
+    grid-column: 1/5;
+    // border: 1px solid #333;
+
+    & > h2 {
+      padding: 0.25rem;
+      font-weight: bold;
+      min-width: 26.5rem;
+    }
+  }
+  &__summary {
+    grid-column: 1/5;
+    // border: 1px solid #333;
+    & > p {
+      padding: 0.25rem;
+    }
+  }
+
+  &__utilities {
+    display: flex;
+    grid-column: 1/5;
+    // border: 1px solid #333;
+    align-items: center;
+    padding-left: 0.25rem;
+
+    & > div {
+      display: flex;
+      margin-left: auto;
+      padding: 0.25rem;
+
+      & > p {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+      }
+    }
+  }
+  &__img {
+    max-height: 8rem;
+    max-width: 12rem;
+    grid-column: 5/7;
+    grid-row: 1/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    // border: 1px solid #333;
+    img {
+      object-fit: cover;
+      max-height: 100%;
+    }
+  }
+}
+
+.vl {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+//Navbar
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  border-bottom: 2px solid #d3d3d3;
+  h1 {
+    i {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    // a {
+    //   transition: box-shadow 1s;
+    //   &:hover {
+    //     color: $color-black;
+    //     box-shadow: rgba(100, 100, 111, 0.2) 0px 1px 1px 0px;
+    //   }
+    // }
+  }
+  //   a {
+  //     margin-right: 1rem;
+  //     &:hover {
+  //       color: $color-black;
+  //     }
+  //   }
+  ul {
+    margin-left: auto;
+    li {
+      i {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
+  }
+}

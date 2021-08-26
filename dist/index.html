@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <script
+      src="https://kit.fontawesome.com/9103c4fbb3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>
+        <a href="dashboard"><i class="fas fa-fast-forward"></i>Asymmetric</a>
+      </h1>
+      <ul>
+        <li>
+          <a href="#"><i class="fas fa-search fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="far fa-bookmark fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="far fa-bell fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="/logout"><i class="fas fa-user fa-lg"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- <div class="spaces"></div> -->
+    <div class="container">
+      <div class="container-post">
+        <div class="container-post__user"><div>Anish Sinha</div></div>
+        <div class="container-post__title">
+          <h2>Combining MergeSort and InsertionSort</h2>
+        </div>
+        <div class="container-post__summary">
+          <p><em>A look at creating an efficient sorting algorithm</em></p>
+        </div>
+        <div class="container-post__utilities">
+          <p>Date •</p>
+          <p>Length •</p>
+          <p>Category •</p>
+          <div class="bookmark">
+            <p><i class="far fa-bookmark"></i></p>
+            <p><i class="fas fa-ellipsis-h"></i></p>
+          </div>
+        </div>
+        <div class="img container-post__img">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAADFCAMAAACM/tznAAAAvVBMVEX///+5zPG1yfC0yPDs8fvG1fTV4PfA0fL5+v7m7frx9fz6/P7d5vi6zfH09/339/fZ4/fo7vrc3NzM2vXl5eXNzc3h6fn/2qeAgIDQ0NCVlZWJiYnDw8P09PT/2qn/9en/5cPr6+v/+vOqqqr/7NP/159xcXGUlJSDg4Oenp63t7dra2v/4bm8vLxkZGT/8d//6s5SUlL/yXr/0ZFJSUlZWVk8PDz/05f/vFL/wF//z4f/xm4iIiIuLi7/uEP9x2GLAAARE0lEQVR4nO1dC3ubuBIVsoHYhoABE2xMG0KLDY6dpG3S3e699///rAvGD0nowcuxk/X5NmmRhNAcjUaiO8MAcMUVXcOaTOreMp9YbZ5oBG3u7hyxtXDq3TFNpn6bJ858o83tXcMD65oqkE5BKwKSmoSfGF6yqTkh4WaxaPPE2YURMKp/T9BKA5yLWgGgtgnMYDS56YoLhTGbEyWTKVGQJoTSOsQ9DnZHkCT4Nkk8wpoll6RBnrEIsYIgmeEtnLVDrPkIxNhevkrQKysi+PICQuCUpPicWIE5oQLhjGyzIA8+yQq9mjkYAY7vp1jrlwhrnm+9F4QYRIR4JQJ8ct9aA1TJw9fFC7qVhEbWKYoVwI8+6SWtAGB5xKYeehtcJaarBT6jIF3ia8KI0KvA83BKJ0uc0uSyzsJXXPGvxaiPIisYote3WcEtUYBdD8s9lHokrm/I+vNC7cEjekNwg15DPZMHYgCAvLaxHvpEj7dAwa7dUv25CZAQZMO/hWiBlE0YUTDCLuEIyFgPY6LHIVDQDqCG18PhZROgiwiQKhCACXwl4CIJgLufIwEQEgTsCvYEwH3JnoBd/Z4AWHSIEABxAnbtL4MAeahLch8iBMjaUMUIUN2BihBgD3uK68IjAdB1bYQA9VZXhzJKgKIpGAGDov1lECCZOtQ0iGmABnENUF2UAMmFem+AECANisu9Bmi6pKAEwLEp40tAVi6HAGhKpj3AloCp4ktA1wsBdgRAtye5OroEFNNFCICaDhUVI6Ag6ECAbPYuhwB5aMp2X0cIgAPCBsjuACXAvlVczUQIyDQIXQLyUFP7LkqAqZkYAbfmJS2BPertApgG7Hv4mLtAMwKkKwGfkoAeLi9BAMzeDbDrjAC0ICNAJwngHYV7ZydAk1GMsncb9NoERIECgEJcD7AebvAe7exlEKsfluqv+IC4v6cUfv353sM4G+6/UIu//nh454GcCQz5AXj48fSuAzkTmPJn+P34fuM4F3jyA/D4+73GcS7w5Qfg6cf7jONcEMmfG4Kv7zGQM0Esf4Y/zycfx7lQSX4AvtydeBznQkX5AXj+c9JxnAuV5f+kZ6Ia8mf48e1U4zgX6skPwPdPdiaqK392x6c6E9WXPz8TfR5D0ET+z/Ry1Ez+DD/vwWcwho3lz16Ovnz/6OvgK7hvcbB7ePzrox+Mfz83n//MED7efXQC/v79WSxZMzz8efwMZuyKj4Npq2i0CgiJB1ghvV13CLwEcY1PEn6w0a+6wTT+PHc7To2qDui/ptgAkvmvmg+sjWCBDs0DK3bTDPVCkTJy/TQPYYvAbPYKFr4wCmHk437sHpjxIqbaxYYVCOIQkWoVbLitE25tqbUVLGeWFya+tQSbiW+9CW95mWF+72ufqwEdyJ/N0hpRa2ses5vWxsIBy1mmBqFvLUA8TyyhBTFKKsaN4WwVG7d/JBEbse6gzz2cV3+5CCdvwDM2i7fRaiFWoJK4XKNzWeF9V1zRASIi/MnDzwGWj62izLq2f+Qa26Bf8YjB0ENrjdmiSxtJQTDDzwthhPMxBUt03VvtQoSLR+JHnxc8pHIRYdFWIDrxwSyMiANTSsTDrfHosGV7mx072KQG+EHEN/AQyi72Hf5wppiOk1GzKRbZbyyd9ho5nb5iA5jhMabeClW5CRGd1z1CfFd25nNsq7MmGCEhGVR8xRUfGP3BEXn8GnI5yKqHyOW41LoRTAUBALfopVu6viGquwYWEdcDQO5h4WxYPFzvdkS0boIhEVGnECF5JlovAQ2/7ByY1y8R7wYzAnAnZrJ1EwyxPgi34ZwAzO8YaER112hBgHQloNETL5EAVZUkGyFAVRSMAF3REQJkVbLltgToCkaAXQzgSIBqYwTI9ikJgJoClTwgaE+Arm+DnQ4EKGoR3DQsWtuq7bYkAA50DR4JkMfZfxAlwJVVlABTsU9IQDbjumIiBOxm+EBATzGPBEiyAlUNtiRAUwYIAVDLHoYSoI41GSUAFuFopyJANm0zDxCDh4hHiBGg6IgGSLai76PjmqBYAraKakAebrftc0+ArtkKSsDgELHXNXKRdEXRoYzYAGkX+Xq0AerRBmSt5cJGtCFAxWyArNjyVskPS0BWUBuQPVM9IQEH/Gt3gSsBCAHINdRwAnrDmx7eugmGaB/bo3B1Ak5wFAayeoQNgIZcqkMAbPR6RLZughEaQqePwAAVMOtzjF/30Uu5W9mvuOIKLoooj3fyaLtAx7lvhWfz47t4dN1t2X74/h7Pqohv9/u/tHGJq4i7fUzR5bhQHuR/j3m5O8ZUfbkQ/zNE/gzfTxv0dYd2f38RMQW4/Ceelzuc3qcLMASk/AA8n25e7kj1evh9bkNQlj/bE081LyX587LzeuLS5M9N4UnmhSZ/tvdSh/BOoMsPTjMvdPnfZ+9l4Bt7tXc/Lyz5T7jkRODInxnojueFLT84+d7LAFf+3EB3+TCu/O91CMchkB/k83Lf1cME8ud771Mzw2sYW6eicPdTHWL5Mwa6+hqCUP5syf25b9T1JNq6GOV+Ly81bnv6UuFxDx0diR4fKyzxb1VGVELqxWsvmhqeF7wmmyD2q/p0Pf7T5HEN8ffvk9m4FZiknuGvp8t0AjaRl5zc+b8JTmjiY5CmMYg94M3X4CWd1rQDHx+WN5smmR0ACVgmCfCXFMdWZ+tDH05wh0iHG1rhbKuNCZ4Mhn/PxeJ1kseRvFj/wYT5D9cH2IuiNL/nDWPtTZgUwfk187Np2fiYe2W04T0s+G+eqyJ4nWHulNZbZx6KMZhGwPGBZ+ClPCyNwANgA/AMXK+s5gc4Sd7ID3F33IirOUGcDy2dAyyUxirl+GiMjZVMLPBqvNUhYD6PHPDLeMFsinifzXjOGs2ssAYBxiYXfZ3i/HZIQLxeAx9M0xgjgK/N/joCkeNES0wDxErprPy14RvebIndx11uxsssyubDm2HRZE53PsP5ZORy1Mnv5gfFwbJuTjQrAWCUz3cNF+sgb5vPBz+a7IMgIP6sc8+/bQu/4h1heaRJGfkihXPI3EPAWfqV/CRIw2F4y4je8oCJRxhYw/PjZk4ZVGzAkpB37omCoWYgInaKCMyrmGbrjdj1QnH4aUzZlTrMxRVQUmom4miwUhbKtFJktzcnCfjlCTTAevFLoUJd5qQ04tJsViBgRS6SEEwrRDYv/Lgc9yR4Sc3OTzHJbaebYjwnT7HWKhEYgU00J1oso2r/3BAR69lZzUXSbEotyOx+LWGR/GaviIKtmtLCqqaVAfmwQLzcSodlo6tTwWiL3R8jpAQcS6j3ALRFuZePAruHoU8rIaHhLVxaCQ2YU5wE5VIJzdkO+za9pFJL2gD7+P/WH7RcQgJzZ5Rg/kF5iSyhYYh/mR/SSkrAW/Ruic/3S72bExMw6I4AIkuXVCKA5vxJUHRLJnCAVwKuBLQnAO4TY6EEQBEB+2RYBwLg/kdAwJ6HPQFHXtgE7G89ErB/fAcEQM2FcJsH6UiArQ1lPgHqoMgsdCBA6fcUdywmQHH3QVAFAfpAlRSFT4CsKQQBtmt2pwG6BtVtniNUA3YBOmwNUDWcAGmQp9fSRQTAcW8MUQJUTZXkIjCHRQAc2DJJwK6XbmyA1hvLuAZATRUsAV3fBdTtCdim11KFGgBdpY8RAPO0XQIC+mqfIKBXZKLqhgB3aMvKVnmPBIxFNkAeDGyUAGje2q6rCTVAUnbTfVgC2ZKQBzqXAFcmCICaonZHwNF8HZfA3urU2AUgUsIhQLV3DXcEyIqSB1/xCMg0XieXwM5sXLfBKwEnJqDLd4FTEND2XQBLCgyLt0GyhISGt9CIDx1A1tsgnrK4J5VKaJFwEG+SvWpLpZJWuNljlP8qSkY3x1LuPTfHe24E9+S47Q8P6PdH+5J9aZ82mTfIPcNtpuu85FBIvacZHqh/FeHrsW09P49n6l+5+HZ0U3/o3nkU6R3UcMxEmn6t4zGFOtjdV6QOHdZj587KaO/PlR2Bn9DYgTqzgn2Nuxrh+Ki6VgF8FiqrANbwoboKPGFq/60S4figulYB/Pvo3yoGhRCq8qXyoL5zL6kgF0q3DtQNeyc/K19VL8kpf6pgB8lnVV+nVUD2XmVEFOtVxeMzR4lfMeFlle9SBcq9V0oZUG5ULdNAefLEXtdl5apmOSqBsqtW8QOn2KFqOxpl7kTM0RZXdypA673CXDYdFG2hCHYQanW1dVoB1N7Fexp1I6qil1RTybef9NquVIDej2ijZZxGm5izLXgMMBZkhXVqOVvXg/wX03mD1Y1gT2OsEbFeMvrlEc5aj6J1GkTJZDoBxnQK0skKpHQOWHPGVwEm+yIVYPLKJpxJqmidxqE/3UTWfL2aRFYcTec0TxT2lHFFYZL/dM8dE3vMbMLZAxFo6QuYTzfGzANxYoHYS2Y0X1Z277w9jbP8+HrJqWWNhHcw5zMQT1fTV7DywWa6SOM0Jb2Ttr1zzDZHBThVXL3k2S3W4ZaniQJTPXcCCzghsMDUyn5oDtC83tnH7Sfe2xJvVrjLil7JP/S3fC1+eOYe3VjD5X9H4oH5SvDEJS7TRoqsj3wR79u9F3/hv8E+08O5Hv7c8277esfi554f+/dMq/7xh6cBD9//4vUoxM+fXA14/B+9/B/uZv/w5Sej5umOy/fDHUVBRG8XnzmN8xUXCuPwi11P+X8DTr4LhRPmjdbEyn9hZdvgtIjpSWzMco/ehTBYjQE/SvIEDsz6OPdpjcnejV9pBIJfTOfO1PctMFmV/UyjeWSBlP24TRhnj8P7jYHH8wo2vDz2pnGGg1XeO8fpfJv0qlRvzLInBuyYrXX+AjahTEoUTuYgZXvFxnnyiCVZxhXQ2BK0ZNYLsAlWuac8E6+BFwSl3o2XKJ2HbFfltb900gnl0J0ulsCfsAnIjupGSribZy8wFq2v/VhWUZAETVdApt1OuOb4KcfrUUTmnstTURncXFBptsqpep5nR+F5RWdTYZD1WUcB5/9+GmmrUKo11VYdMaGbOsETS77gV1zRCvwYBMNx6oQgkggEwa4G/enJgrt0QubWavBjg6JZ+d+slnPuGMO53yaKPLb4W0g5VCmHY1nc6LAJYMXcLfiRXh7ltpdEYOQbb4Jgm+uSf4gw6AFtI0HE2pqRNHNu8QN90kl5OJ4gOmreeBMsem9CgLHhW/ooZIScLaI37haSGmXmEoGK18vASWItyBXnezR+wzTix7unzDHzv7FhnTqR2jlxu8XN9jeluqgYFb93ZRqSVcik3IJmHRrXHhD6oXDKZ7pv0e+IH58+lPQDJEqMk4nWox52NpGziESv7Pl204Ncd0AXcSGE9b80jjot9spzMkDrVVHxAdgX+TWUAFbFngC0vhAW/9g9hQC0vh0BUEDAsfexgACmnCICKMJeCdg57AsIgC0JgDwCINn7GC1mEQB3vZYJKG5kEZDVokEgBQG6KXMJsE29OQG2IkGXR4Cp2TQCtKKYQYDc75l5iE+ZANV1OQRAU4OuQhAANVVAQJGCpRkBsrZLqsTUAJLeggBd4RGQJ+ZRTRoBtm3KHA3QTSiXCBjYRQ4e5hJwWywBqOnmNsaFRYC+y3NDEKDKRQYkFgG9bT1lCdhFTBGbAHWbagldAqbtcgkYF2momhGg9GW7r3IIsG2qDTCLeDEGAfbYdvOIpjIBumaWjMNxOFAby1qeRQk3gjLfCMp2CwLy04rEswE71DaCsLERRGb7ug3+qwignQQpx2OMALS+AQFo72V6B+jZ/dh7n158lJN15EdSJkFIeXPRkfp95Az6MkThDHsZqp/1dSjIGTtG6hEFQeJXhrR/F0Pra4/piiuuuOKKK9ri/3W2OznGN21kAAAAAElFTkSuQmCC"
+          />
+        </div>
+      </div>
+      <div class="container-post">
+        <div class="container-post__user"><div>Anish Sinha</div></div>
+        <div class="container-post__title">
+          <h2>Using Strassen's Algorithm</h2>
+        </div>
+        <div class="container-post__summary">
+          <p><em>A more efficient way to multiply matrices</em></p>
+        </div>
+        <div class="container-post__utilities">
+          <p>Date •</p>
+          <p>Length •</p>
+          <p>Category •</p>
+          <div class="bookmark">
+            <p><i class="far fa-bookmark"></i></p>
+            <p><i class="fas fa-ellipsis-h"></i></p>
+          </div>
+        </div>
+        <div class="img container-post__img">
+          <img src="https://i.ytimg.com/vi/gUe_aVtVThg/hqdefault.jpg" />
+        </div>
+      </div>
+      <div class="container-post">
+        <div class="container-post__user"><div>Anish Sinha</div></div>
+        <div class="container-post__title">
+          <h2>LU-Decomposition</h2>
+        </div>
+        <div class="container-post__summary">
+          <p><em>Using Java to decompose matrices</em></p>
+        </div>
+        <div class="container-post__utilities">
+          <p>Date •</p>
+          <p>Length •</p>
+          <p>Category •</p>
+          <div class="bookmark">
+            <p><i class="far fa-bookmark"></i></p>
+            <p><i class="fas fa-ellipsis-h"></i></p>
+          </div>
+        </div>
+        <div class="img container-post__img">
+          <img
+            src="https://media.geeksforgeeks.org/wp-content/uploads/matrix2-1.png"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
